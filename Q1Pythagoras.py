@@ -3,7 +3,13 @@
 
 
 a = float(input("Value of a(a): "))
-b = float(input("valeu of b(b): "))
+if a <= 0:
+    print("na ah")
+     
 
+b = float(input("value of b(b): "))
+if b <= 0:
+    print("na ah")
+    
 c = (a**2)+(b**2)
 print(c**2) 
